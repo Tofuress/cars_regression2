@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.ipynb_checkpoints
+
+# Virtual environments
+venv/
+.env/
+
+# PyCharm
+.idea/
+
+# Jupyter Notebook outputs (опционально)
+*.ipynb_checkpoints
+
+# Large files / data / models
+*.pkl
+*.csv
+data/drom_archive_2007-2025.csv
+data/drom_archive_cleaned_2018-2025.csv
+models/rf_model.pkl
+
+# OS files
+.DS_Store
+Thumbs.db
